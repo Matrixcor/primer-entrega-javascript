@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En la seccion de productos de No-GRAVITY encotraras accesorios, suplementos, proteinas, asesoramiento, necesarios para que puedas hacer los ejercicios">
+    <meta name="keywords" content="Suplementos, Proteinas, Discos, Mancuernas, Elasticos, Colchonetas, Remeras, Zapatillas ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <title>NO GRAVITY - Productos</title>
+</head>
+<body>
+    <header class="Encabezado">
+        <h1 class="Encabezado__Nombre">NO GRAVITY</h1>
+    </header>
+    <nav class="Barra navbar navbar-expand-lg">
+        <div class="Barra__Contenido container-fluid">
+            <button class="Barra__Contenido--Boton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="Barra__Contenido--Opciones collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="Opciones navbar-nav me-auto mb-lg-0" aria-hidden="true"></i>
+                    <li class="Opciones__Bordes nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="Opciones__Bordes nav-item">
+                        <a class="nav-link" href="empresa.html">Nosotros</a>
+                    </li>
+                    <li class="Opciones__Bordes nav-item">
+                        <a class="nav-link" href="ejercicios.html">Ejercicios</a>
+                    </li>
+                    <li class="Opciones__Bordes nav-item">
+                        <a class="nav-link active" aria-current="page" href="productos.html">Tienda</a>
+                    </li>
+                    <li class="Opciones__Bordes nav-item">
+                        <a class="nav-link" href="nutricion.html">Nutricion</a>
+                    </li>
+                    <li class="Opciones__Bordes nav-item">
+                        <a class="nav-link" href="acceso.html">Acceso</a>
+                    </li>              
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="Banner carousel slide" id="carouselExampleSlidesOnly" data-bs-ride="carousel">
+        <div class="Banner__carrusel carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel/banner-tienda/Presentacion1final.png" class="d-block w-100" alt="Promocion Pesas zapatillas">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/banner-tienda/Presentacion2final.png" class="d-block w-100" alt="Promocion mancuernas">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/banner-tienda/Presentacion3final.png" class="d-block w-100" alt="Promocion suplementos">
+            </div>
+        </div>        
+    </div>
+    <nav class="Posicion" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Tienda</li>
+        </ol>
+    </nav>
+    <div class="Tienda">
+        <aside class="Tienda__Filtro navbar navbar-expand-lg bg-light d-block">
+            <div class="Tienda__Filtro--Contenido container-fluid">
+                <button class="Boton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedaside" aria-controls="navbarSupportedaside" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-filter-left" viewBox="0 0 14 14">
+                        <path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+                <div class="Opciones collapse navbar-collapse jc-center" id="navbarSupportedaside">
+                    <div class="Opciones__Item navbar-nav  col-md-4 me-auto mb-2 mb-lg-0 d-block" aria-hidden="true"></i>
+                        <h6 class="text-uppercase font-weight-bold mb-3 mt-3">MARCA</h6>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-1">
+                                <label for="category-1">SONNOS</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-2">
+                                <label for="category-2">POWER</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-3">
+                                <label for="category-3">W. PROTEIN</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-4">
+                                <label for="category-4">G. MARC</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-5">
+                                <label for="category-5">ADIDAS</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-6">
+                                <label for="category-6">POWER-LIFT</label>
+                            </div>
+                        </div>
+                        <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+                        <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">PRECIO</h6>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div>
+                                <input type="checkbox" class="custom-control-input" id="filter-size-1">
+                                <label for="filter-size-1"> Hasta $1.500</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div>
+                                <input type="checkbox" class="custom-control-input" id="filter-size-2">
+                                <label for="filter-size-2">Hasta $5.000</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div>
+                                <input type="checkbox" class="custom-control-input" id="filter-size-3">
+                                <label for="filter-size-3">Hasta $9.000</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="filter-size-4">
+                                <label for="filter-size-4">Mas de $9.000</label>
+                            </div>
+                        </div>
+                        <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+                        <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">FINANCIACION</h6>
+                
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-4">
+                                <label for="category-4">3 cuotas</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-5">
+                                <label for="category-5">6 cuotas</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-6">
+                                <label for="category-6">12 cuotas</label>
+                            </div>
+                        </div>
+                        <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+                        <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">UBICACION</h6>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-4">
+                                <label for="category-4">C.a.b.a</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-5">
+                                <label for="category-5">G.c.b.a</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-6">
+                                <label for="category-6">Cordoba</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-4">
+                                <label for="category-4">Santa Fe</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-5">
+                                <label for="category-5">Entre Rios</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-6">
+                                <label for="category-6">Corrientes</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-5">
+                                <label for="category-5">La Pampa</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 mb-2 pl-2">
+                            <div class="">
+                                <input type="checkbox" class="custom-control-input" id="category-6">
+                                <label for="category-6">Mendoza</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="Tienda__Principal">
+            <form class="Tienda__Principal--Buscador" action="post">
+                <input class="Buscador__Campo" type="search" placeholder="Busca aqui tu producto" name="buscar" id="buscar">
+                <input class="Buscador__Boton" type="submit" value="Buscar">
+            </form>
+            <section class="Tienda__Principal--Seccion"> 
+                <h2 class="Seccion-Titulo"> INDUMENTARIA </h2>
+                <div class="Seccion-Contenido row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4"> 
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/conjuntoss.jpg" class="card-img-top" alt="Conjuntos">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Conjuntos</h3>
+                                </div>
+                                <p class="item-price">$6500.00</p>
+                                <p class="item-codigo">Cod-1</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/remera-modi.jpg" class="card-img-top" alt="Remeras y musculosa">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Remeras</h3>
+                                </div>
+                                <p class="item-price">$3500.00</p>
+                                <p class="item-codigo">Cod-2</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/zapatillas.png" class="card-img-top" alt="Zapatillas">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Zapatilla</h3>
+                                </div>
+                                <p class="item-price">$15000.00</p>
+                                <p class="item-codigo">Cod-3</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/indumentaria-guantes.png" class="card-img-top" alt="Par de Guantes">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Guantes</h3>
+                                </div>
+                                <p class="item-price">$1500.00</p>
+                                <p class="item-codigo">Cod-4</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                </div>
+            </section>
+            <section class="Tienda__Principal--Seccion-central">
+                <h2 class="Seccion-Titulo"> BARRAS </h2>
+                <div class="Seccion-contenido row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/barrass.jpg" class="card-img-top" alt="Conjunto">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Barras</h3>
+                                </div>
+                                <p class="item-price">$12000.00</p>
+                                <p class="item-codigo">Cod-5</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/discoss.jpg" class="card-img-top" alt="Discos para barras de banco">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Discos</h3>
+                                </div>
+                                <p class="item-price">$7500.00</p>
+                                <p class="item-codigo">Cod-6</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/mancuernass.jpg" class="card-img-top" alt="Mancuernas de arena">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Mancuernas</h3>
+                                </div>
+                                <p class="item-price">$6500.00</p>
+                                <p class="item-codigo">Cod-7</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/bandas-elasticas.png" class="card-img-top" alt="Bandas Elasticas">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Bandas</h3>
+                                </div>
+                                <p class="item-price">$3500.00</p>
+                                <p class="item-codigo">Cod-8</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                </div>
+            </section>
+            <section class="Tienda__Principal--Seccion">
+                <h2 class="Seccion-Titulo">SUPLEMENTOS</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/AMINOACIDOS.jpg" class="card-img-top" alt="Conjunto">
+                                <div class="card-body">
+                                    <h3 class="card__titulo"> Aminoacidos</h3>
+                                </div>
+                                <p class="item-price">$4500.00</p>
+                                <p class="item-codigo">Cod-9</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/ANIMALS.jpg" class="card-img-top" alt="Pack de nutrientes">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Animal packs</h3>
+                                </div>
+                                <p class="item-price">$7500.00</p>
+                                <p class="item-codigo">Cod-10</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/suplementos.jpg" class="card-img-top" alt="Suplementos deportivos">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Proteinas</h3>
+                                </div>
+                                <p class="item-price">$6700.00</p>
+                                <p class="item-codigo">Cod-11</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                    <article class="col">
+                            <div class="card Animacion">
+                                <img src="img/productos/Batidos.png" class="card-img-top" alt="Batidos">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Batidos</h3>
+                                </div>
+                                <p class="item-price">$5900.00</p>
+                                <p class="item-codigo">Cod-12</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>    
+    <footer class="Pie text-center text-lg-start text-white">
+        <div class="Pie__contenido bg-secondary d-flex justify-content-between p-4">
+            <div class="Pie__contenido--redes me-5">
+                <span>Conectate con nosotros en las redes sociales:</span>
+            </div>
+            <div class="Pie__Cotenido--iconos">
+                <a href="https://es-la.facebook.com/" target="_blank" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.google.com/" target="_blank" class="text-white me-4"><i class="fab fa-google"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+                <a href="https://ar.linkedin.com/" target="_blank" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank" class="text-white me-4"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="Pie__contenido container text-center text-md-start mt-5">
+            <div class="Pie__contenido--opciones row mt-3">
+                <div class="Columna col-md-2 col-lg-2 col-xl-2 w-25 mx-auto mb-4">
+                    <h6 class="Columna__Titulo ">No gravity</h6>
+                    <hr class="Columna__Subrayado d-inline-block mx-auto" style="width: 60px; background-color: white; height: 2px"/>
+                    <img class="Columna__Logo d-block justify-content-center" src="../img/Logo-empresa-3.png" alt="Logo No Gravity">
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h4 class="Columna__Titulo">Nosotros</h4>
+                    <hr class="Columna__Subrayado d-inline-block mx-auto">
+                    <p>
+                        <a href="empresa.html" class="text-white">Empresa</a>
+                    </p>
+                    <p>
+                        <a href="social.html" class="text-white">Social</a>
+                    </p>
+                    <p>
+                        <a href="legal.html" class="text-white">Legal</a>
+                    </p>
+                </div>
+                <div class="Columna col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h4 class="Columna__Titulo">Links Utiles</h4>
+                    <hr class="Columna__Subrayado d-inline-block mx-auto">
+                    <p>
+                        <a href="acceso.html" class="text-white">Tu Cuenta</a>
+                    </p>
+                    <p>
+                        <a href="ejercicios.html" class="text-white">Ejercicios</a>
+                    </p>
+                    <p>
+                        <a href="productos.html" class="text-white">Tienda</a>
+                    </p>
+                    <p>
+                        <a href="nutricion.html" class="text-white">Nutricion</a>
+                    </p>
+                </div>
+                <div class="Columna col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h4 class="Columna__Titulo">Contactanos</h4>
+                    <hr class="Columna__Subrayado d-inline-block mx-auto">
+                    <p><i class="fas fa-home mr-3"></i> CABA, AV Rivadavia 4950, Arg</p>
+                    <p><i class="fas fa-envelope mr-3"></i> Contacto@NoGravity.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> + 11 488 661</p>
+                    <p><i class="fas fa-print mr-3"></i> + 11 488 662</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="script-mio.js"></script>
+</body>
+</html>

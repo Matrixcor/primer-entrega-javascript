@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Urae_Nium";
+  src: url("../fonts/urae_nium/urae_nium.ttf"); }
+
+@font-face {
+  font-family: "Run";
+  src: url("../fonts/run_2/Run! Demo.otf"); }
+
+body {
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  text-align: center; }
+
+.Encabezado {
+  width: 99vw;
+  height: 6em;
+  text-align: center;
+  background-color: black; }
+  .Encabezado__Nombre {
+    font-family: "Urae_Nium",italic;
+    color: white;
+    font-size: 6em; }
+
+.Barra {
+  width: 99vw;
+  margin: auto;
+  background-color: #F9F9F9; }
+
+.Posicion {
+  background-color: white;
+  padding: 10px 0px; }
+
+.breadcrumb {
+  width: 80vw;
+  margin: auto;
+  background-color: white; }
+
+.Opciones__Item {
+  width: 13vw;
+  text-align: left; }
+
+.Articulo__Relacionado {
+  width: 280px;
+  background-color: #F9F9F9;
+  padding: 15px; }
+  .Articulo__Relacionado--Lista {
+    list-style: none;
+    text-align: justify; }
+  .Articulo__Relacionado .Item {
+    margin: 10px 0px;
+    padding: 5px 2px; }
+
+.Banner {
+  width: 99vw;
+  margin: auto;
+  justify-content: center;
+  background-color: black;
+  text-align: center; }
+
+.Principal {
+  width: 99vw;
+  margin: auto;
+  justify-content: center; }
+  .Principal .Principal__Seccion {
+    width: 99vw;
+    padding: 3vw 0.7vw;
+    background-color: #F9F9F9; }
+    .Principal .Principal__Seccion--Titulo, .Principal .Principal__Seccion-central--Titulo {
+      padding-bottom: 1vw; }
+    .Principal .Principal__Seccion--Contenido, .Principal .Principal__Seccion-central--Contenido {
+      width: 80vw;
+      margin: auto; }
+
+.card, .Articulo__Relacionado .Item, .Articulo .Opciones {
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 7px 7px 10px gray; }
+  .card__titulo {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1.2em; }
+  .card__boton {
+    width: 70%;
+    margin: 5px auto;
+    background-color: #6c757d;
+    font-weight: bold; }
+
+.Principal__Seccion-central {
+  padding: 3vw 0.7vw;
+  background-color: #e8e8e8; }
+  .Principal__Seccion-central--Contenido {
+    width: 80vw;
+    margin: auto; }
+
+.Tienda, .Principal-Articulo__Acceso, .Articulo {
+  display: flex;
+  justify-content: center;
+  padding: 2vw 0vw; }
+  .Tienda__Principal {
+    width: 67vw;
+    padding-left: 1vw;
+    text-align: center; }
+    .Tienda__Principal--Buscador {
+      justify-content: center;
+      padding: 10px; }
+    .Tienda__Principal--Seccion {
+      padding: 3vw 0.7vw;
+      background-color: #F9F9F9; }
+    .Tienda__Principal--Seccion-central {
+      padding: 3vw 0.7vw;
+      background-color: #e8e8e8; }
+  .Tienda .Seccion-Titulo, .Principal-Articulo__Acceso .Seccion-Titulo, .Articulo .Seccion-Titulo {
+    padding-bottom: 1vw; }
+
+.Principal-Articulo {
+  width: 80vw;
+  margin: auto;
+  background-color: #F9F9F9; }
+  .Principal-Articulo__Texto, .Principal-Articulo__Seccion--Texto, .Articulo__Seccion--Texto {
+    font-size: 1.3em;
+    text-align: justify; }
+  .Principal-Articulo__Acceso--Imagen {
+    width: 30vw; }
+  .Principal-Articulo__Seccion, .Articulo__Seccion {
+    text-align: center; }
+  .Principal-Articulo .Formulario {
+    padding: 0vw 1vw; }
+    .Principal-Articulo .Formulario__Item {
+      width: 280px;
+      font-size: 1.3em; }
+      .Principal-Articulo .Formulario__Item--caja {
+        width: 280px; }
+
+.Articulo {
+  width: 80vw;
+  margin: auto;
+  background-color: #F9F9F9; }
+  .Articulo__Seccion {
+    width: 75vw; }
+    .Articulo__Seccion--opcion {
+      display: inline-flex;
+      padding: 0px 30px; }
+  .Articulo .Opciones {
+    padding: 0px 20px;
+    margin: 0px 10px; }
+
+.Pie {
+  background-color: black;
+  justify-items: center; }
+  .Pie__contenido {
+    background-color: black; }
+
+.Columna__Titulo {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px; }
+
+.Columna__Subrayado {
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 4px;
+  margin-top: 0px; }
+
+.Columna__Logo {
+  width: 105px; }
+
+.Banner__carrusel {
+  width: 75%;
+  margin: auto;
+  padding: 20px 0px; }
+
+.carousel-item__Titulo {
+  margin: auto; }
+  .carousel-item__Titulo--Texto {
+    font-family: "Run";
+    text-shadow: 1px 1px 2px black, 0 0 1em grey, 0 0 0.2em blue; }
+
+.Opciones {
+  margin: auto; }
+  .Opciones:Bordes {
+    margin: auto;
+    margin-bottom: 2px;
+    justify-content: center; }
+
+.Animacion:hover {
+  transform: scale(1.05);
+  box-shadow: none; }
+
+.card__boton:hover {
+  background-color: #f9f9f9; }
+
+.Opciones__Bordes:hover {
+  border-bottom: solid 2px black; }
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .imgarticulo {
+    width: 40vw; } }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .Encabezado__Nombre {
+    font-family: "Urae_Nium",italic;
+    color: white;
+    font-size: 4em; }
+  .Banner__carrusel {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px; }
+  .Carrousel__Titulo {
+    font-size: 1.2em;
+    font-family: "Run"; }
+  .Opciones__Item {
+    width: 30vw;
+    text-align: left; }
+  .Principal-Articulo {
+    width: 80vw;
+    margin: auto;
+    background-color: #F9F9F9; }
+    .Principal-Articulo__Acceso {
+      display: block;
+      width: 80vw;
+      padding: 2vw 0vw; }
+      .Principal-Articulo__Acceso--Imagen {
+        width: 60vw; }
+      .Principal-Articulo__Acceso--Formulario {
+        width: 80vw; }
+    .Principal-Articulo .Formulario {
+      padding: 0vw 1vw; }
+      .Principal-Articulo .Formulario__Item {
+        width: 50vw;
+        margin: auto;
+        font-size: 1.3em; }
+        .Principal-Articulo .Formulario__Item--caja {
+          width: 50vw; }
+  .Animacion:hover {
+    transform: scale(1); }
+  .Articulo {
+    display: block; }
+    .Articulo__Relacionado {
+      margin: auto; }
+    .Articulo .Item {
+      margin: 10px 0px;
+      padding: 5px 2px; }
+  .imgarticulo {
+    width: 60vw; } }
